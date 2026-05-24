@@ -6,8 +6,8 @@ Classificacao: PUBLICO / OPERACIONAL / SEM SEGREDOS
 
 ## Pendencias abertas
 
-1. Revisar todos os repertorios com alteracoes pendentes antes de novos commits globais.
-2. Separar pacotes: governanca, visual, responsividade, livros, investidores, MVPs e revisao final.
+1. Revisar todos os repertorios com alteracoes pendentes antes de novos commits globais. **Status 2026-05-24:** varredura geral registrada em `registros/2026-05-24-varredura-repertorios-github-cronograma-programacao.md`.
+2. Separar pacotes: governanca, visual, responsividade, livros, investidores, MVPs e revisao final. **Status 2026-05-24:** cronograma reorganizado por lotes: Web Summit/publico, MVP demonstrativo, documentacao/governanca, infra/Cloudflare e contatos/networking.
 3. Confirmar politica definitiva de branches para colaboradores externos.
 4. Criar modelo de issue/solicitacao de trabalho para humanos e I.As.
 5. Criar checklist de deploy Cloudflare por repertorio.
