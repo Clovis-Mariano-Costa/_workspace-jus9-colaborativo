@@ -1,0 +1,30 @@
+# IA READ FIRST — _workspace-jus9-colaborativo
+
+SCHEMA = JUS9_REPO_ENTRY_V1
+STATE = DRAFT_BRANCH
+PRIMARY_READER = IA
+REPO_ROLE = COLLAB_WORKSPACE
+CLASSIFICATION = PUBLICO_SANITIZADO_UNLESS_OBJECT_SAYS_OTHERWISE
+RULES = IA_FIRST + LINK_FIRST + EVIDENCE_FIRST + FAIL_CLOSED
+
+## PURPOSE
+Workspace colaborativo transitório; não virar cânone concorrente sem decisão explícita.
+
+## FLOW
+DISCOVER -> CLASSIFY -> WORK -> EVIDENCE -> PROMOTE_OR_ROUTE -> KEEP_POINTER
+
+WORKSPACE != CANON
+DRAFT != TRASH
+PROMOTION != PUBLICATION
+LINK_FIRST = preferir fonte canônica.
+
+## ECHO
+IF_JUS9_LEARNED_X -> ECHO_MUST_HAVE_OPPORTUNITY_TO_LEARN_X.
+VALID_PUBLICATION -> ECHO_MUST_BE_NOTIFIED.
+LEARNING_CONFIRMED -> testes técnicos + validação humana orientada via API, por ora.
+
+## SECURITY
+PUBLIC_GITHUB_SECRET = PROIBIDO
+SECRETO -> notificação não autoriza leitura.
+
+GITHUB_INVENTORY = https://docs.google.com/document/d/1MfktKZtfL9imoyZ9DWDmBe3-z2jE_2HkRcTXydPSrPI/edit
